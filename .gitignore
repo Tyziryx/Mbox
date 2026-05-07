@@ -1,0 +1,34 @@
+# Environnement et secrets
+config/.env
+*.env
+.env.*
+
+# Rapports et archives
+*.pdf
+*.zip
+archives/
+
+# Données runtime
+data/logs/
+data/domain_lists_summary.json
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# PHP
+*.cache
+
+# Outils Claude / superpowers
+.claude/
+.superpowers/
+
+# Fichiers temporaires PHP
+.tmp_tables.php
+
+# Anciennes captures (déplacées dans assets)
+Capture*.png
