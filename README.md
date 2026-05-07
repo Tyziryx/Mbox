@@ -1,22 +1,25 @@
-# MBox — Interface d'Administration Réseau
+# MBox - Interface d'Administration Réseau
 
 Interface web d'administration réseau développée dans le cadre du projet AMS, permettant la gestion DNS, DHCP, le contrôle parental et la supervision du réseau.
 
 ## Fonctionnalités
 
-- **Contrôle parental** — profils par appareil (Enfant / Ado / Parent), filtrage par catégories, quotas journaliers, plages horaires
-- **Gestion DNS** — configuration, blacklist/whitelist, filtrage RPZ, détection de typosquatting (distance de Levenshtein)
-- **Gestion DHCP** — baux statiques et dynamiques, configuration avancée
-- **Supervision** — historique des blocages, logs, test de débit
-- **Forum intégré** — espace d'échange pour les utilisateurs
-- **Authentification** — login sécurisé, mode expert
+- **Contrôle parental** : profils par appareil (Enfant / Ado / Parent), filtrage par catégories, quotas journaliers, plages horaires
+- **Gestion DNS** : configuration, blacklist/whitelist, filtrage RPZ, détection de typosquatting (distance de Levenshtein)
+- **Gestion DHCP** : baux statiques et dynamiques, configuration avancée
+- **Supervision** : historique des blocages, logs, test de débit
+- **Forum intégré** : espace d'échange pour les utilisateurs
+- **Authentification** : login sécurisé, mode expert
 
 ## Captures d'écran
 
-### Contrôle parental — Appareils et plages horaires
+### Page d'accueil
+![Accueil](public/assets/img/screenshot_home.png)
+
+### Contrôle parental - Appareils et plages horaires
 ![Appareils et plages horaires](public/assets/img/screenshot_parental_devices.png)
 
-### Contrôle parental — Filtres web par profil
+### Contrôle parental - Filtres web par profil
 ![Filtres web](public/assets/img/screenshot_parental_filters.png)
 
 ## Structure du projet
@@ -65,4 +68,4 @@ mysql -u root -p < bin/sql/schema.sql
 
 ## Auteur
 
-**Miaille Alexi** — Projet AMS, 2026
+**Miaille Alexi** - Projet AMS, 2026
